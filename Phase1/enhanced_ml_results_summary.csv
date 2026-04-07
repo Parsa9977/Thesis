@@ -1,0 +1,19 @@
+Dataset,Target,Best Model,R²,RMSE,MAE,Feature Count,Sample Count,Phase,Analysis_Type,Correlation_Threshold,Hyperparameter_Tuned
+Dataset 1,tot_pv_ec,Random Forest (default) (baseline),0.9464083749015432,0.0019954111267096895,0.0007420374782899436,15,248249,Phase 5,Enhanced ML with Feature Engineering,0.7,False
+Dataset 1,tot_pv_ec_inv3,Linear Regression (baseline),1.0,0.0,0.0,15,248249,Phase 5,Enhanced ML with Feature Engineering,0.7,False
+Dataset 1,total_pv_production,Random Forest (default) (baseline),0.9544440003706034,0.00438347773664355,0.0012747109531539055,15,248249,Phase 5,Enhanced ML with Feature Engineering,0.7,False
+Dataset 2,tot_pv_castelfidardo,XGBoost (tuned),0.9600578521227701,4.696818711261787,1.8517007620861752,15,197770,Phase 5,Enhanced ML with Feature Engineering,0.7,True
+Dataset 2,tot_pv_i3p,XGBoost (tuned),0.9475662555940453,0.8869018291682002,0.41264997895773087,15,197770,Phase 5,Enhanced ML with Feature Engineering,0.7,True
+Dataset 2,tot_pv_ec_inv4,XGBoost (tuned),0.8977833920098,0.527664703977213,0.26664013321590435,15,197770,Phase 5,Enhanced ML with Feature Engineering,0.7,True
+Dataset 2,tot_pv_ec_inv1,XGBoost (tuned),0.8991115847252249,0.5292971432273552,0.2647794932184197,15,197770,Phase 5,Enhanced ML with Feature Engineering,0.7,True
+Dataset 2,tot_pv_ec_inv2,XGBoost (tuned),0.9252619073874143,0.7300634389033714,0.3850787654988025,15,197770,Phase 5,Enhanced ML with Feature Engineering,0.7,True
+Dataset 2,tot_pv_aule_r,XGBoost (tuned),0.976179512222038,0.27954426403799426,0.0977110136349799,15,197770,Phase 5,Enhanced ML with Feature Engineering,0.7,True
+Dataset 2,total_pv_production,XGBoost (tuned),0.9584478993839427,2.8313423677080247,1.4681839760081898,15,197770,Phase 5,Enhanced ML with Feature Engineering,0.7,True
+Dataset 3,tot_pv_aule_p,XGBoost (tuned),0.9174209364181066,2.698866351879141,1.6091184034192338,14,74735,Phase 5,Enhanced ML with Feature Engineering,0.7,True
+Dataset 3,tot_pv_aule_p_i2,XGBoost (tuned),0.9119359430685939,1.6732956382133195,0.9948115711917175,14,74735,Phase 5,Enhanced ML with Feature Engineering,0.7,True
+Dataset 3,tot_pv_aule_p_i1,XGBoost (tuned),0.9243632807738931,1.1692978948942878,0.668444332380643,14,74735,Phase 5,Enhanced ML with Feature Engineering,0.7,True
+Dataset 3,total_pv_production,XGBoost (tuned),0.9173851898310823,5.398900854842907,3.215026100301659,14,74735,Phase 5,Enhanced ML with Feature Engineering,0.7,True
+Dataset 4,tot_pv_cit,XGBoost (tuned),0.9446250430650829,23.780465936214835,12.02933613780145,15,268682,Phase 5,Enhanced ML with Feature Engineering,0.7,True
+Merged I3P,tot_pv_i3p_est,XGBoost (tuned),0.9528440678709843,0.5013887095433315,0.24978739531895064,15,301958,Phase 5,Enhanced ML with Feature Engineering,0.7,True
+Merged I3P,tot_pv_i3p_ovest,XGBoost (tuned),0.9458748731242513,0.3247863595413482,0.16123679233315327,15,301958,Phase 5,Enhanced ML with Feature Engineering,0.7,True
+Merged I3P,total_pv_production,XGBoost (tuned),0.9582603064354013,0.7028392887169355,0.3679928540788311,15,301958,Phase 5,Enhanced ML with Feature Engineering,0.7,True

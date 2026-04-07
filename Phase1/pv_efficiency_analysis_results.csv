@@ -1,0 +1,9 @@
+System,Capacity (KWP),Mean Efficiency,Std Dev,Skewness,Kurtosis,Shapiro p-value,Shapiro Normal?,Q-Q R²,Q-Q Assessment,Sample Size,Overall Assessment,Normality Score
+tot_pv_aule_p,50,0.168294,0.188237,1.098,0.165,N/A,N/A,0.8352,Moderate,"74,735",Non-Normal,3/10
+tot_pv_ec,47,0.000120,0.000190,1.249,-0.155,N/A,N/A,0.6444,Poor,"223,769",Non-Normal,2/10
+tot_pv_castelfidardo,183,0.108177,0.163644,1.238,-0.123,N/A,N/A,0.6727,Poor,"98,637",Non-Normal,2/10
+tot_pv_i3p,31,0.093621,0.140466,1.294,0.251,N/A,N/A,0.6971,Poor,"137,345",Non-Normal,2/10
+tot_pv_aule_r,47,0.028439,0.046995,1.202,-0.424,N/A,N/A,0.5946,Poor,"113,649",Non-Normal,2/10
+tot_pv_cit,600,0.110492,0.168604,1.237,-0.142,N/A,N/A,0.6658,Poor,"268,685",Non-Normal,2/10
+tot_pv_i3p_est,31,0.048305,0.074363,1.247,-0.137,N/A,N/A,0.6585,Poor,"301,961",Non-Normal,2/10
+tot_pv_i3p_ovest,31,0.029874,0.044975,1.234,-0.121,N/A,N/A,0.6735,Poor,"301,961",Non-Normal,2/10
